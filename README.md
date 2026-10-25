@@ -1,20 +1,72 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+<# SPA Architecture Simulator & Deliverables Studio
 
-# Run and deploy your AI Studio app
+A web-based tool for exploring Single Page Application (SPA) architecture, inspecting SPA internals, validating project structure, and exploring project deliverables.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/6cf80d7c-ce7f-4b6c-bb64-5ebe571fa79a
+- **SPA Simulator:** Explore SPA architecture and application behavior.
+- **SPA Internals Inspector:** Inspect key concepts and internals of a Single Page Application.
+- **Deliverables Explorer:** Browse project deliverables and related files.
+- **Validation Suite:** Review project validation checks.
+- **Technical Report:** Access the technical report interface.
+- **ZIP Export:** Export deliverable files where supported by the application.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Vite
+- CSS
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Chaitra-Navalgund/spa-architecture-simulator.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd spa-architecture-simulator
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Build for Production
+
+Run the following command to create a production build:
+
+```bash
+npm run build
+```
+
+The generated files will be available in the `dist` directory.
+
+## Deployment
+
+This project can be deployed to Vercel by importing the GitHub repository and using Vite as the framework preset.
+
+## Repository
+
+[SPA Architecture Simulator](https://github.com/Chaitra-Navalgund/spa-architecture-simulator)
