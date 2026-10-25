@@ -1,0 +1,6 @@
+{
+  "name": "SPA Architecture Simulator & Deliverables Studio",
+  "description": "Interactive Single Page Application simulation environment showcasing client-side routing, DOM manipulation, History API state management, transition animations, and downloadable complete project deliverables.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
